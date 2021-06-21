@@ -25,3 +25,11 @@ python run.py
 ```
 ## Test
 Para hacer pruebas a la API, se tiene que realizar una peticion metodo `POST`, con un body `multipart/form-data` y el archivo debe ir en una variable llamada `archivo`, de manera local la ruta seria `http://localhost:5000/uploads`.
+
+## Capturas
+La siguiente imagen muestra como se hace la peticion con la herramienta `advance rest client`.  
+![Screenshot](capturas/peticion.png)  
+Aqui podemos ver como el servidor detecta la peticion.  
+![Screenshot](capturas/API.png)  
+Al final el directorio quedaria de esta forma.  
+![Screenshot](capturas/directorio.png)
